@@ -54,11 +54,15 @@ console.log(double);
 //4. Formato JSON
 //Ejercicio 4.1: Crea un objeto JavaScript que represente un libro (con título, autor y año) y conviértelo a JSON.
 let libro = {title: "Mars and Venus in love", autor: "Jonh Gray", year: 1996}; 
-let libroJSON= 
-JSON.stringify(libro);
+let libroJSON = JSON.stringify(libro);
 console.log(libroJSON)
 
 //Ejercicio 4.2: Dado el JSON '{"nombre": "Ana", "edad": 30, "ciudad": "Madrid"}', conviértelo a objeto y muestra la edad.
 let jsonStringy = '{"nombre": "Ana", "edad": 30, "ciudad": "Madrid"}';
 let object =  JSON.parse(jsonStringy)
 console.log(object.edad)
+
+//Ejercicio 4.3: Parsea el JSON '[{"id": 1, "producto": "Lápiz"}, {"id": 2, "producto": "Borrador"}]' y lista los productos.
+let productsJSON = '[{"id": 1, "producto": "Lápiz"}, {"id": 2, "producto": "Borrador"}]' ;
+let products = JSON.parse(productsJSON);
+products.forEach(p => console.log(p.products));
