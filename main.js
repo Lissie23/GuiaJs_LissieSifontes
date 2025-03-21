@@ -40,3 +40,7 @@ console.log(minor10)
 //Ejercicio 3.1: Convierte esta función a arrow function
 //function sumar(a, b) { return a + b;}
 const summ = (a , b) => a + b
+
+
+//Ejercicio 3.2: Crea una arrow function que reciba un número y devuelva su cuadrado.
+const square = num => num * num;
