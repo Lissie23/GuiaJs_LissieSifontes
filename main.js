@@ -16,3 +16,12 @@ let lines = 5;
 for (let i = 1; i <= lines; i++){
     console.log('*'.repeat(i));
 }
+
+//2. Recorrer arreglos
+//Ejercicio 2.1: Dado el array [3, 7, 2, 9, 5], calcula su suma usando for o for...of.
+let array = [3, 7, 2, 9, 5];
+let suma = 0;
+for (let i = 0; i < array.length; i++) {
+    suma += array[i];
+}
+console.log(suma)
