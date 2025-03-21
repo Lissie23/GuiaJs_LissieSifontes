@@ -44,3 +44,9 @@ const summ = (a , b) => a + b
 
 //Ejercicio 3.2: Crea una arrow function que reciba un número y devuelva su cuadrado.
 const square = num => num * num;
+
+
+//Ejercicio 3.3 (Desafío): Usa una arrow function con map() para duplicar los valores del array [2, 4, 6].
+let arraay = [2, 4, 6];
+let double = arraay.map(num => num * 2);
+console.log(double);
