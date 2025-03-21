@@ -110,3 +110,13 @@ fetch("https://jsonplaceholder.typicode.com/users")
     .then(response => response.json())
     .then(users => users.forEach(user => console.log(user.name)))
     .catch(error => console.error("Error al obtener datos:", error));
+
+//Ejercicio 7.3 (Desafío): Combina async/await con fetch para obtener y mostrar datos de una API pública.
+const getUsers = async() => {
+    try {
+        let response = await fetch ("https://jsonplaceholder.typicode.com/users");
+        users.forEach(user => console.log(user.name));
+    }catch (error) {
+        console.error("Error al obtener datos:", error);
+    }
+};
