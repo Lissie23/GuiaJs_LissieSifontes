@@ -57,3 +57,8 @@ let libro = {title: "Mars and Venus in love", autor: "Jonh Gray", year: 1996};
 let libroJSON= 
 JSON.stringify(libro);
 console.log(libroJSON)
+
+//Ejercicio 4.2: Dado el JSON '{"nombre": "Ana", "edad": 30, "ciudad": "Madrid"}', conviértelo a objeto y muestra la edad.
+let jsonStringy = '{"nombre": "Ana", "edad": 30, "ciudad": "Madrid"}';
+let object =  JSON.parse(jsonStringy)
+console.log(object.edad)
