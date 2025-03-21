@@ -11,3 +11,8 @@ for (let i = 0; i <= 20; i++){
     }
 }
 
+//Ejercicio 1.3 (Desafío): Crea un triángulo con asteriscos usando bucles anidados:
+let lines = 5;
+for (let i = 1; i <= lines; i++){
+    console.log('*'.repeat(i));
+}
