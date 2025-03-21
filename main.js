@@ -78,7 +78,15 @@ const divide = (a , b) => {
     }
 };
 
+
 //Ejercicio 5.2: Crea un bloque donde intentes acceder a una variable no definida y captura el error.
+try{
+    console.log(noDefine);
+}catch (error) {
+    console.error("Error capturado:", error.message)
+}
+
+//Ejercicio 5.3 (Desafío): Usa try...catch...finally para asegurar que un mensaje se imprima siempre, haya error o no.
 try {
     let result = 100/ 10
     console.log ("Resultado:". result);
