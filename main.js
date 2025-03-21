@@ -20,14 +20,14 @@ for (let i = 1; i <= lines; i++){
 //2. Recorrer arreglos
 //Ejercicio 2.1: Dado el array [3, 7, 2, 9, 5], calcula su suma usando for o for...of.
 let array = [3, 7, 2, 9, 5];
-let suma = 0;
+let sum = 0;
 for (let i = 0; i < array.length; i++) {
-    suma += array[i];
+    sum += array[i];
 }
-console.log(suma)
+console.log(sum)
 
 //Ejercicio 2.2: Encuentra el número mayor en el array [12, 45, 6, 89, 23].
 let array1 = [12, 45, 6, 89, 23];
-let mayor = array1.sort((a , b) => b - a) [0];
-console.log(mayor);
+let major = array1.sort((a , b) => b - a) [0];
+console.log(major);
 
