@@ -31,3 +31,12 @@ let array1 = [12, 45, 6, 89, 23];
 let major = array1.sort((a , b) => b - a) [0];
 console.log(major);
 
+//Ejercicio 2.3: Filtra los números menores a 10 del array [15, 3, 8, 12, 1] y crea un nuevo array.
+let arrayy = [15, 3, 8, 12, 1];
+let minor10 = arrayy.filter(num => num < 10);
+console.log(minor10)
+
+
+//3. Arrow Functions
+//Ejercicio 3.1: Convierte esta función a arrow function
+
