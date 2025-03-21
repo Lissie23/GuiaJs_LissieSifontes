@@ -95,3 +95,11 @@ try {
     }finally {
         console.log("Este mesnaje siempre se imprimirá")
     }
+
+
+//6. Async Await
+//Ejercicio 6.1: Crea una función `esperarSegundos(segundos)` que use `setTimeout` con `async/await`.
+const waitSeconds = async(seconds) => {
+    await new Promise(resolve => setTimeout(resolve , seconds * 1000));
+    console.log(`Pasaron ${seconds} segundos}`);
+};
