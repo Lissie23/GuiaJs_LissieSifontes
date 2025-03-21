@@ -36,7 +36,7 @@ let arrayy = [15, 3, 8, 12, 1];
 let minor10 = arrayy.filter(num => num < 10);
 console.log(minor10)
 
-
 //3. Arrow Functions
 //Ejercicio 3.1: Convierte esta función a arrow function
-
+//function sumar(a, b) { return a + b;}
+const summ = (a , b) => a + b
