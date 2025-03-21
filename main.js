@@ -66,3 +66,14 @@ console.log(object.edad)
 let productsJSON = '[{"id": 1, "producto": "Lápiz"}, {"id": 2, "producto": "Borrador"}]' ;
 let products = JSON.parse(productsJSON);
 products.forEach(p => console.log(p.products));
+
+//5. Try Catch Finally
+//Ejercicio 5.1: Escribe una función que divida dos números. Usa `try...catch` para manejar división por cero.
+const divide = (a , b) => {
+    try{
+        if (b === 0) throw new Error("No es posible dividir entre cero");
+        return a / b;
+    } catch (error){
+        console.log(error.message)
+    }
+}
