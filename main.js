@@ -70,10 +70,20 @@ products.forEach(p => console.log(p.products));
 //5. Try Catch Finally
 //Ejercicio 5.1: Escribe una función que divida dos números. Usa `try...catch` para manejar división por cero.
 const divide = (a , b) => {
-    try{
+    try {
         if (b === 0) throw new Error("No es posible dividir entre cero");
         return a / b;
     } catch (error){
         console.log(error.message)
     }
-}
+};
+
+//Ejercicio 5.2: Crea un bloque donde intentes acceder a una variable no definida y captura el error.
+try {
+    let result = 100/ 10
+    console.log ("Resultado:". result);
+}catch (error) {
+        console.error("Ocrrió un error;". error.message);
+    }finally {
+        console.log("Este mesnaje siempre se imprimirá")
+    }
