@@ -25,3 +25,9 @@ for (let i = 0; i < array.length; i++) {
     suma += array[i];
 }
 console.log(suma)
+
+//Ejercicio 2.2: Encuentra el número mayor en el array [12, 45, 6, 89, 23].
+let array1 = [12, 45, 6, 89, 23];
+let mayor = array1.sort((a , b) => b - a) [0];
+console.log(mayor);
+
