@@ -50,3 +50,10 @@ const square = num => num * num;
 let arraay = [2, 4, 6];
 let double = arraay.map(num => num * 2);
 console.log(double);
+
+//4. Formato JSON
+//Ejercicio 4.1: Crea un objeto JavaScript que represente un libro (con título, autor y año) y conviértelo a JSON.
+let libro = {title: "Mars and Venus in love", autor: "Jonh Gray", year: 1996}; 
+let libroJSON= 
+JSON.stringify(libro);
+console.log(libroJSON)
